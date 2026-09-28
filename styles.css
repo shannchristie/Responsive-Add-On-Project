@@ -1,7 +1,13 @@
 header {
-    background-image: url('');
-    background-repeat: no-repeat; 
+    background-image: url("");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -10,9 +16,11 @@ h1 {
     font-style: normal;
     font-weight: 600;
     font-size: 100px;
-    line-height: 144px;
+    line-height: 1.2;
     text-align: center;
+    margin: 0;
 }
+
 h2 {
     font-family: "Playfair Display", serif;
     color: white;
@@ -20,4 +28,5 @@ h2 {
     font-weight: 400;
     font-size: 30px;
     text-align: center;
+    margin-top: 20px;
 }
